@@ -1,0 +1,44 @@
+.body {
+    background-color:rgb(0,255,255);
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+.h1 {
+    color:rgb(0,128,128)
+}
+
+.p {
+    color: rgb(0,128,128);
+}
+
+.games {
+    border-color:5px rgb(5,145,235);
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.roblox {
+    color: rgb(205,133,63);
+    font-size: 20px;
+    margin: 10px;
+    background-image:"https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/4X/f/7/c/f7c9f2a9f31bf5748c52fa1087126828a5333ac8_2_500x500.png";
+    border: 5px solid rgb(0,128,128)
+}
+
+.fifa {
+    color: rgb(5,145,235);
+    font-size: 20px;
+    margin: 10px;
+    background-image:"https://frescocreative.com.au/wp-content/uploads/2023/08/Colour-FIFA-World-Cup-Blog1-1200pxW-1024x546.jpg.webp";
+    border: 5px dotted rgb(0,255,0);
+}
+
+.roblox-img {
+    border: 5px solid rgb(0,128,128);
+}
+
+.fifa-img {
+    border: 5px dotted rgb(0,128,128);
+}

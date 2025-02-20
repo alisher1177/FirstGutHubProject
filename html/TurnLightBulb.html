@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .img {
+        height: 500px;
+        width: 500px;
+    }
+</style>
+<body>
+    <img 
+        id="light"
+        src="https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg" alt="LightBulb">
+    <br/>
+    <br/>
+    <button onclick="turnOn()">Turn on the light</button>
+    <button onclick="turnOff()">Turn off the light</button>
+    <button onclick="hideBulb()">Hide the light</button>
+    <button onclick="showBulb()">Show the light</button>
+    <script>
+
+            const bulb = document.getElementById("light");
+
+        function turnOn() {
+            bulb.src =
+                "https://media.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg"
+        }
+
+        function turnOff() {
+            bulb.src =
+            "https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg"
+        }
+
+        function hideBulb() {
+            bulb.style.display = "none";
+        }
+
+        function showBulb() {
+            bulb.style.display = "show";
+            bulb.src =
+            "https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg"
+
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change HTML Content</title>
+</head>
+<body>
+    <h1 id="welcome">Hello, World!</h1>
+    <button onclick="changeContent()">Click Me!</button>
+
+    <script>
+        function changeContent() {
+            const text = document.getElementById("welcome")
+
+            text.textContent = "Javascript is awesome!"
+        }
+    </script>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

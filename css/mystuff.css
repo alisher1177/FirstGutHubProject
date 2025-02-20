@@ -1,0 +1,52 @@
+.body {
+    background-color: aliceblue;
+    font-family: cursive;
+    text-align: center;
+}
+
+.mystuff {
+    border-color: rgb(0,125,168);
+    padding: 10px;
+    margin: 20px;
+    width: 60%;
+}
+
+.aboutme{
+    color: rgb(128,12,113);
+    font-size: 20px;
+    background-color: rgb(190, 27, 205);
+    background-image:"https://img.freepik.com/free-vector/illustrated-about-me-concept_52683-59123.jpg";
+  
+}
+
+.myitems {
+    color: rgb(123,132,0);
+    font-size: 20px;
+    background-color: rgb(190, 27, 205);
+    background-image:"https://img.buzzfeed.com/buzzfeed-static/static/2017-06/19/11/campaign_images/buzzfeed-prod-fastlane-03/29-cool-and-random-things-you-can-probably-afford-2-21019-1497886981-2_dblbig.jpg?resize=1200:*";
+}
+
+.contactme{
+    color: rgb(13,32,143);
+    font-size: 20px;
+    background-color: rgb(190, 27, 205);
+    background-image:"https://png.pngtree.com/element_our/20200610/ourmid/pngtree-contact-us-24-hours-image_2241411.jpg";
+}
+
+.aboutme-img {
+    border: 5px dashed rgb(124,252,0);
+    margin: 20px;
+    padding: 10px;
+}
+
+.myitems-img{
+    border: 5px dotted rgb(243, 173, 82);
+    margin: 20px;
+    padding: 10px;
+}
+ 
+ .contactme-img {
+    border: 5px solid rgb(45,145,253);
+    margin: 20px;
+    padding: 10px;
+ }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catch Ball Game</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+      }
+      .game-container {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        height: 300px;
+        border: 2px solid #333;
+        overflow: hidden;
+        background-color: rgb(211,123,111);
+      }
+      .ball {
+          width: 20px;
+          height: 20px;
+          background-color: rgb(0, 255, 170);
+          border-radius: 50%; /* Make it a circle */
+          position: absolute; 
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Catch Ball Game</h1>
+    <div class="game-container">
+      <div class="ball" id="ball"></div>
+    </div>
+    <script>
+        const ball = document.getElementById("ball")
+
+let ballPosition = 0;
+
+document.addEventListener("keyclick", (e) => {
+        if(ballClicked) position = random;
+        if(click.key === "On Click") {
+        ballPosition += random;
+        ball.position.random = ballPosition + "px"
+        }
+})
+    function createBall() {
+      const random = Math.floor(Math.random() * 16);
+        } 
+    </script>
+</body>
+</html>

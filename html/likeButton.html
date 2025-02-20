@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            height: 450px;
+            width: 450px;
+        }
+    </style>
+</head>
+<body>
+    <img
+        id="likebutton"
+        src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsX29mZmljZV8yOF8zZF9pbGx1c3RyYXRpb25fb2ZfdHJhbnNwYXJlbnRfaGVhcnRfaW5fdGhlX18yZmE4ODFiNC1kN2RjLTQ4NGQtYjBkYi1lYWNkNmIyZWRkNWRfMS5wbmc.png" alt="button" />
+        <br/>
+        <br/>
+        <button onclick="clickLike()">Like the picture</src>
+        <button onclick="clickUnlike()">Unlike the picture</src>
+
+        <script>
+            let like = document.getElementById("likebutton")
+
+            function clickLike() {
+                like.src =
+                    "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNjgzLTAxMzAucG5n.png"
+            }
+
+            function clickUnlike() {
+                like.src =
+                "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsX29mZmljZV8yOF8zZF9pbGx1c3RyYXRpb25fb2ZfdHJhbnNwYXJlbnRfaGVhcnRfaW5fdGhlX18yZmE4ODFiNC1kN2RjLTQ4NGQtYjBkYi1lYWNkNmIyZWRkNWRfMS5wbmc.png"
+            }
+        </script>
+</body>
+</html>

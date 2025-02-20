@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="magicText">Click the magic button to see the MAGIC!</p>
+
+    <button id="magicButton" onclick="changeContent()">Magic button</button>
+
+    <script>
+        function changeContent() {
+            const button = document.getElementById("magicButton");
+
+            const text = document.getElementById("magicText");
+
+            text.textContent = "Wow, the world is now MAGICAL!";
+
+            text.style.color = "red";
+            // Math.floor(Math.random() * 16777215).toString(); 
+        }
+    </script>
+</body>
+</html>
